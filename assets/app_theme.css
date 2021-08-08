@@ -1,0 +1,42 @@
+:root {
+    --header-background-color: #DB4C3F;
+    --header-button-background-hover-color: rgba(255, 255, 255, 0.2);
+    --header-button-icon-color: #ffffff;
+    --sidebar-background-color: #fafafa;
+    --sidebar-item-background-highlight-color: #ececec;
+    --sidebar-item-inbox-color: #246fe0;
+    --sidebar-item-today-color: #058527;
+    --sidebar-item-upcoming-color: #692fc2;
+}
+
+#app-header {
+    background-color: var(--header-background-color);
+}
+
+.app-header-button:hover {
+    background: var(--header-button-background-hover-color);
+}
+
+#app-header path {
+    fill: var(--header-button-icon-color);
+}
+
+#app-sidebar {
+    background: var(--sidebar-background-color);
+}
+
+.sidebar-item.select, .sidebar-item:hover {
+    background: var(--sidebar-item-background-highlight-color);
+}
+
+#sidebar-item-inbox .sidebar-item-icon {
+    fill: var(--sidebar-item-inbox-color);
+}
+
+#sidebar-item-today {
+    fill: var(--sidebar-item-today-color);
+}
+
+#sidebar-item-upcoming {
+    fill: var(--sidebar-item-upcoming-color);
+}
